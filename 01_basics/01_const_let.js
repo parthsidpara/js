@@ -12,6 +12,7 @@ accountCity = "Jaipur";
 
 // Declare a variable 'accountState' without initialization; it will have the value 'undefined'
 let accountState;
+var abcd;
 
 // Attempt to reassign 'accountId' (const variables cannot be reassigned)
 // Uncommenting the line below will result in an error
@@ -31,4 +32,4 @@ console.log(accountId);
 */
 
 // Display the values of variables in a table format using console.table
-console.table([accountId, accountEmail, accountPassword, accountCity, accountState]);
+console.table([accountId, accountEmail, accountPassword, accountCity, accountState, abcd]);
